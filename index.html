@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Key</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.png">
+    
+
+    
+</head>
+<body>
+    
+    <nav class="navbar">        
+        <h1>Books Key</h1>
+    </nav>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h5>Robert</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, nostrum? Et, sunt doloremque dolore, molestiae qui maiores iste possimus odio architecto alias cumque quis impedit soluta, est laboriosam quia officiis.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea name="Discription" placeholder="Short Description"  id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+
+     <button class="add-btn" id="add-popup-btn">+</button>
+
+    <script type="text/javascript" src="script.js"></script>
+    
+
+</body>
+</html>
